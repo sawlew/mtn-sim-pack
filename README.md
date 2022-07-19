@@ -5,4 +5,4 @@
  
  The only image I imported in the layout is the sim chip.
  
- I'm open to suggestions and critisizing
+ I'm open to suggestions and criticism
