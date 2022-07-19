@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    body {
+      background: rgb(7, 75, 4);
+    }
+
+    #front{
+      /* width: 500px; */
+      /* height: 300px; */
+      /* border: 2px solid #ffca00; */
+      width: 500px;
+      height: 290px;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+    #pack{
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #container {
+      border: 2px solid #ffca00;
+      width: 500px;
+      margin: auto;
+      background: #ffca00;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    #story {
+      margin: 0 2em 0 1.4em;
+      font-size: 11px;
+    }
+    #sim {
+      width: 110px;
+      height: 50px;
+      border: 5px solid;
+      border-radius: 7px;
+      border-bottom-right-radius: 20px;
+      padding-top: 1em;
+      margin: 1em 0 2em 2em;
+    }
+    #ssim {
+      width: 50px;
+      height: 30px;
+      border: 5px solid;
+      border-radius: 5px;
+      border-bottom-right-radius: 15px;
+      margin-left: 1em;
+      margin-top: -0.5em;
+    }
+    span {
+      display: flex;
+      justify-content: space-between;
+    }
+    #mtnn{
+      width: 60px;
+      height: 40px;
+      border: 5px solid;
+      border-radius: 50%;
+      margin-top: 0.5em;
+    }
+    #mtnn h1{
+      font-size: 20px;
+      text-align: center;
+      margin-top: 0.4em;
+    }
+    #mtn {
+      width: 70px;
+      height: 70px;
+      margin: 1em 2em 0 0;
+      border: 5px solid white;
+    }
+
+    #footer {
+      display: flex;
+      justify-content: space-between;
+      border: 2px solid white;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      background: white;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .details {
+      margin: 0.5em 0 0 1em;
+    }
+    .code {
+      margin: 1em 1em 1em 0;
+    }
+    .code p b{
+      font-weight: 900;
+    }
+    #chip {
+      border-radius: 5px;
+    }
+
+    #main {
+      width: 500px;
+      height: 290px;
+      background-color: #ffca00;
+      /* background-image: linear-gradient(to right, #ffca00, #f3de89); */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* border: 2px solid #ffca00; */
+      border-radius: 10px;
+    }
+
+    #section0 p{
+      color: white;
+    }
+    .section1 {
+      width: 250px;
+      height: 130px;
+      border-radius: 50%;
+      border: 10px solid white;
+    }
+
+    .section1 h1 {
+      text-align: center;
+      font-size: 70px;
+      margin-top: 20px;
+      font-family: sans-serif;
+      color: white;
+    }
+
+    .section2 {
+      width: 110px;
+      height: 50px;
+      border: 5px solid;
+      border-radius: 7px;
+      border-bottom-left-radius: 20px;
+      padding-top: 1em;
+      margin: 4em 2em 0 2em;
+      background-color: #ffca00;
+    }
+    .sdsim {
+      width: 50px;
+      height: 30px;
+      border: 5px solid;
+      border-radius: 5px;
+      border-bottom-left-radius: 15px;
+      margin-left: 1em;
+      margin-top: -0.5em;
+    }
+    .slogo {
+      width: 40px;
+      height: 20px;
+      border-radius: 50%;
+      border: 5px solid;
+    }
+
+    .slogo p {
+      text-align: center;
+      font-weight: 700;
+    }
+    .sect {
+      /* background-color: #ffca00; */
+      background-image: linear-gradient(to right, #ffca00, #f3de89);
+      height: 200px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border: 10px solid white;
+      border-right: transparent;
+    }
+  </style>
+  <body>
+    <div id="pack">
+      <div id="front">
+        <div id="container">
+          <h3 style="margin-left: 0.8em; padding-top: 0.3em">MTN START PACK</h3>
+          <p id="story">
+            This pack is sold sealed and MTN is not responsible for any missing
+            components. Do not purchase if seal is broken. Please visit our website
+            (www.mtnonline.com) for information on the terms and conditions guiding
+            the use of this product; it contains important information about the
+            services that MTN provides. Please read carefully. Thank you.
+          </p>
+          <span>
+            <div id="sim">
+              <div id="ssim">
+                <img id="chip" src="sim.jpeg" alt="sim chip" width="50px" height="30px"/>
+              </div>
+            </div>
+            <div id="mtn">
+              <div id="mtnn"><h1>MTN</h1></div>
+            </div>
+          </span>
+        </div>
+        <div id="footer">
+          <div class="details">
+            <h5>Your Start Pack SIM serial number is:</h5>
+            <p style="text-align: center">0000 0000 0000 0000 0000</p>
+            <h5>Your Personal Unblocking Key is:</h5>
+            <p style="text-indent: 20px">00000000</p>
+          </div>
+          <div class="code">
+            <p>||<b>||</b>||||||||<b>||||||</b>|||||||||<b>||||</b>|||</p>
+            <p style="text-indent: 30px">0000000000</p>
+            <p style="text-indent: 50px; margin-top: -0.2em">Nigeria</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="main">
+        <div id="section0">
+          <div class="section1"><h1>MTN</h1></div>
+            <p style="text-align: center;"><b>Everywhere you go</b></p>
+          </div>
+
+          <div class="sect">
+            <div class="section2">
+              <div class="sdsim">
+                <div class="slogo"><p>MTN</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
